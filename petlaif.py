@@ -81,9 +81,9 @@ while newgame == 1:
         time.sleep(4.0)
         clear()
 ###points
+        print("Your score is: ",points)
         if points == 0:
             print("Your amount of points is similar to you, you are also a living zero.")
-        print("Your score is: ",points)
         if points == 1:
             print("it could be worse, you are still an idiot")
         if points == 2:
