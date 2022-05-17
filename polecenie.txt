@@ -1,0 +1,25 @@
+imie 
+nazwisko 
+wiek
+---kazda
+przemysl:
+- sila
+rol:
+usl:
+- inteligencja
+- prowizja(od5do20) 
+
+wylicza pensje 
+dodawac nowych i zmieniac role
+netto
+wzor przymsl = kwota * 0,1 * sila - wiek 
+wzor rolnik = kwota
+wzor usl = kwota * 0,2 * inteligencja * prowizja
+menu
+dodanie 
+edycja 
+usuniecie 
+wyswietlenie wszystkich
+
+
+	
