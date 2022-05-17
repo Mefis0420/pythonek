@@ -1,0 +1,33 @@
+
+
+using System;
+
+class Hello
+{
+    static void Main()
+    {
+	  Console.WriteLine("Podaj lvl który chcesz wbić: ");
+        double x = double.Parse(Console.ReadLine());
+        double calc = 60 * Math.Pow(x, 2.8) - 60;
+        Console.WriteLine("Aby wbić poziom " + x + " musisz zdobyć = " + Math.Round(calc) +" Punktów exp\n\n");
+        Console.WriteLine("Oto skalowanie hp dla poziomu: "+x);
+        double hp = 80  * Math.Pow(1.09 , x);
+        Console.WriteLine("oto poziom hp dla levela "+x+ " = "+ Math.Round(hp));
+       
+    }
+}
+
+using System;
+
+class Hello
+{
+    static void Main()
+    {
+        for (double x = 0; x <= 1000; x++)
+        {
+        double calc1 = 60 * Math.Pow(x, 2.8) - 60;
+        Console.WriteLine(Math.Round(calc1));
+        File.AppendAllText(@"C:\Users\MatSad\Desktop\siszarppisanie.txt","Level "+ x+ " potrzebuje "+calc1+" exp\n");
+        }
+    }
+}
